@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Henning Nilius"
+  },
+  "text": {
+    "more": "Second test",
+    "intro": "This network shows the citation network of COVID-19 serolgy studies\nPurple: 0-49th percentile of SJR\nLight green: 50th-89th percentile of SJR\nBlue: 90-94th percentile of SJR\nOrange: 95-98th percentile of SJR\nDark green: 99th percentile +",
+    "title": "Network of COVID-19 serology studies"
+  },
+  "legend": {
+    "edgeLabel": "Citations",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Studies"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Label",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "sjr"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
